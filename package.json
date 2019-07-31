@@ -1,0 +1,20 @@
+{
+  "name": "cucumber-ts",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cucumber-js features/**/*.feature --require-module ts-node/register --require features/**/*.ts",
+    "simulate-failure": "yarn test --simulate-failure"
+  },
+  "dependencies": {
+    "chai": "4.2.0",
+    "commander": "2.20.0",
+    "cucumber": "5.1.0",
+    "typescript": "3.5.3"
+  },
+  "devDependencies": {
+    "@types/chai": "4.1.7",
+    "@types/cucumber": "4.0.7",
+    "@types/node": "12.6.8",
+    "ts-node": "8.3.0"
+  }
+}
